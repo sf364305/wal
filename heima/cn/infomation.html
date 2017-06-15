@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>黑马会</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <!-- <meta name="screen-orientation" content="portrait">
+        <meta name="x5-orientation"content="portrait"> -->
+        <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+    </head>
+    <body>
+        <div class="information-wrap">
+            <form action="" class="inf-form" name="">
+                <h1>填写报名信息</h1>
+                <div class="clearfix">
+                    <label for="">企业名称：</label>
+                    <input type="text" name="" class="company" placeholder="请输入您企业名称" />
+                </div>
+                <div class="clearfix">
+                    <label for="">职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：</label>
+                    <input type="text" name="" class="in-position" placeholder="请输入您的职位" />
+                </div>
+                <div class="clearfix">
+                    <label for="">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+                    <input type="text" name="" class="in-name" placeholder="请输入您的姓名" />
+                </div>
+                <div class="clearfix">
+                    <label for="">联系方式：</label>
+                    <input type="number" name="" class="in-telephone" placeholder="请输入您的手机号码" />
+                </div>
+            </form>
+            <a href="" class="infomation-pay">立即报名 <span>>></span></a>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var winH = $(window).height();
+        $(".information-wrap").css({
+            "height": winH + "px"
+        })
+        $(".infomation-pay").click(function() {
+            var com = $(".company").val();
+            var pos = $(".in-position").val();
+            var nam = $(".in-name").val();
+            var tele = $(".in-telephone").val();
+        })
+    </script>
+</html>

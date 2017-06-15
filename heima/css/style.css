@@ -1,0 +1,331 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-21 22:11:37
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-27 10:04:17
+*/
+
+@media all and (orientation : landscape) { 
+/*横屏时代码*/
+} 
+
+@media all and (orientation : portrait){ 
+
+/*竖屏时代码*/
+    
+}
+.wrap-index {
+    overflow: auto;
+    width: 100%;
+}
+.index-picture {
+    overflow: hidden;
+    width: 100%;
+}
+.wrap-index img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.index-picture img, .index-end img {
+    float: left;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+}
+.index-end {
+    position: relative;
+    overflow: hidden;
+}
+.index-end a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 10rem;
+}
+.sign-pic {
+    width: 100%;
+}
+.sign-pic img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+}
+.sign-con ul {
+    padding: 1rem 0 0 10%;
+}
+.sign-con ul li {
+    width: 92%;
+    height: 2.5rem;
+    color: #a98163;
+    padding-left: 8%;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+.sign-con ul li:nth-child(1) {
+    background: url("../images/content_1.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sign-con ul li:nth-child(2) {
+    background: url("../images/content_2.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sign-con ul li:nth-child(3) {
+    background: url("../images/content_3.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sign-con ul li:nth-child(4) {
+    background: url("../images/content_4.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sign-con ul li:nth-child(5) {
+    background: url("../images/content_5.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sign-con ul li:nth-child(6) {
+    background: url("../images/content_6.png") 0% center no-repeat;
+    background-size: 6% auto;
+}
+.sign-con ul li:nth-child(7) {
+    background: url("../images/content_7.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sign-con ul li:nth-child(8) {
+    background: url("../images/content_8.png") 0% center no-repeat;
+    background-size: 5% auto;
+}
+.sing-entrance {
+    padding-top: 1.5rem;
+}
+.sing-now, .sing-buy {
+    display: block;
+    width: 92%;
+    height: 2.5rem;
+    margin: 0 auto 1rem;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.sing-now {
+    background: #ed424b;
+}
+.sing-buy {
+    background: #4485eb;
+}
+.information-wrap {
+    position: relative;
+    width: 100%;
+    background: url("../images/background.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.inf-form {
+    padding-top: 11rem;
+    color: #fff;
+}
+.inf-form h1 {
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.inf-form div {
+    width: 80%;
+    margin: 0 auto 1.5rem;
+}
+.inf-form label {
+    float: left;
+    width: 30%;
+    font-size: 1.2rem;
+}
+.inf-form input {
+    float: left;
+    width: 64%;
+    padding-left: 5%;
+    margin-top: -0.3rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 1.2rem;
+    -webkit-appearance: none;
+}
+.infomation-pay {
+    position: absolute;
+    display: block;
+    left: 38%;
+    bottom: 7%;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.infomation-pay span {
+    display: inline-block;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-animation: move 1s linear 0s alternate infinite;
+    -moz-animation: move 1s linear 0s alternate infinite;
+    animation: move 1s linear 0s alternate infinite;
+    -webkit-transform-origin: right 0;
+    -moz-transform-origin: right 0;
+    transform-origin: right 0;
+}
+@-webkit-keyframes move {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        opacity: 0.4;
+        -webkit-transform: translateX(10px);;
+    }
+}
+@-moz-keyframes move {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        opacity: 0.4;
+        -webkit-transform: translateX(10px);;
+    }
+}
+.member-wrap {
+    width: 100%;
+    padding-top: 2rem;
+    background: url("../images/meb_back.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.member-head, .tickets-head {
+    position: relative;
+    overflow: visible;
+    width: 8.38rem;
+    height: 8.38rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin: 0 auto;
+    background: url("../images/m_head.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.member-head img, .vip-pic dl dt img, .tickets-head img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.member-head span, .tickets-head span {
+    position: absolute;
+    top: -1.2rem;
+    right: 3%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("../images/a_head.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.member-com {
+    margin: 1rem 0 2rem 0;
+}
+.member-com p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.42rem;
+    line-height: 2rem;
+}
+.vip-meb img {
+    display: block;
+    width: 63.33%;
+    height: auto;
+    margin: 0 auto;
+}
+.vip-pic {
+    width: 88.8%;
+    height: 11.67rem;
+    margin: 0.5rem auto 3rem;
+    background: url("../images/vip_2.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.vip-pic dl {
+    width: 23%;
+    padding: 2.5rem 0 0 2%;
+}
+.vip-pic dl dt {
+    position: relative;
+    overflow: visible;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.2rem;
+    margin: 0 auto 0.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: url("../images/m_head.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.vip-pic dl dd {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.meber-time {
+    padding-bottom: 2rem;
+}
+.meber-time p {
+    width: 94%;
+    padding: 0 3%;
+    color: #fa8162;
+    text-align: center;
+    font-size: 1.42rem;
+    line-height: 2rem;
+}
+.tickets-wrap {
+    width: 100%;
+    padding-top: 15%;
+    background: url("../images/meb_back.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+.member-head i {
+    width: 100%;
+    text-align: center;
+    font-size: 1.42rem;
+}
+.tickets-head {
+    width: 6.38rem;
+    height: 6.38rem;
+    padding: 5px;
+}
+.tickets-name {
+    margin: 1.5rem auto 0.5rem;
+    color: #444;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.tickets-head span {
+    top: -1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.tickets-wrap .member-com {
+    margin-top: 3rem;
+    color: #444;
+    font-size: 1.08rem;
+}
+.tickets-wrap .vip-pic {
+    margin-bottom: 1rem;
+}

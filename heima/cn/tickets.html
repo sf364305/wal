@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>黑马会</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <!-- <meta name="screen-orientation" content="portrait">
+        <meta name="x5-orientation"content="portrait"> -->
+        <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+    </head>
+    <body>
+        <div class="tickets-wrap">
+            <div class="tickets-head">
+                <img src="../images/sign.jpg" alt="" />
+                <span></span>
+            </div>
+            <div class="tickets-name">超级大帅哥</div>
+            <div class="member-com">
+                <p>你已购买黑马会的门票一张</p>
+            </div>
+            <div class="vip-pic">
+                <dl>
+                    <dt>
+                        <img src="../images/sign.jpg" alt="" />
+                    </dt>
+                    <dd>超帅大帅哥</dd>
+                </dl>
+            </div>
+            <div class="meber-time">
+                <p>参会时间：2017-05-27</p>
+                <p>参会地点：厦门市会展中心</p>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var winH1 = $(window).height();
+        $(".tickets-wrap").css({
+            "height": winH1 + "px"
+        })
+    </script>
+</html>
