@@ -1,0 +1,1401 @@
+/*首页账号区样式*/
+.project {
+    width: 92%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.project li {
+    float: left;
+    width: 20%;
+    padding-top: 2rem;
+    height: 7rem;
+}
+.project li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.project li a img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 0.5rem;
+}
+/*最新商品信息样式*/
+.index-news h2 {
+    width: 100%;
+    height: 2.5rem;
+    background: #eee;
+    color: #333;
+    font-size: 1.33rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.com-list {
+    width: 96%;
+    margin: 0 auto;
+    padding: 1.5rem 0 5rem;
+    background-color: #fff;
+    border-top: none;
+}
+.com-list li {
+    position: relative;
+    padding: 0.5rem 3% 0rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 1px 1px 5px 2px rgba(50,50,50,0.2), 1px 1px 1px -11px rgba(50,50,50,0.2);  
+}
+.com-list li a {
+    font-size: 0.95rem;
+}
+.sell-credit span {
+    float: left;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0.1rem 0.2rem 0 0;
+    background: url(../images/credit.png) center 0 no-repeat;
+    background-size: 100% auto;
+}
+.sell-credit, .lease-credit, .sell-inf, .lease-inf, .sever {
+    margin-bottom: 0.3rem;
+    color: #222;
+    font-size: 0.95rem;
+}
+.sell-credit em, .lease-credit em, .lease-credit span, .lease-inf em, .lease-inf span {
+    float: left;
+}
+.game-name, .game-lease{
+    display: block;
+    height: 100%; 
+}
+.name-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+.game-name .sever, .game-name .sell-inf {
+    color:　#222;
+}
+.name-title, .sever, .sell-inf {
+    display: block;
+}
+.name-title img {
+    float: left;
+    width: 1.5rem;
+    height: auto;
+    margin-top: 0.1rem;
+}
+.name-title  em {
+    float: left;
+}
+.index-news {
+    overflow: hidden;
+    width: 100%;
+}
+.price {
+    position: absolute;
+    right: 15%;
+    top: 3.5rem;
+    width: 21.33%;
+    text-overflow: ellipsis;
+    color: red;
+    white-space: nowrap;
+    font-size: 1.92rem;
+    text-align: right;
+}
+.sell-status, .sell-status1 {
+    position: absolute;
+    top: 0;
+    right: -4%;
+    width: 8rem;
+    height: 5rem;
+    background: url(../images/lease_status.png) center 0 no-repeat;
+    background-size: 70% auto;
+}
+.sell-status1 {
+    background: url(../images/sell_status.png) center 0 no-repeat;
+    background-size: 70% auto;
+}
+/*导航样式*/
+.index-person-active {
+    color: #00baff;
+    background: url("../images/person_active.png") center 15% no-repeat;
+    background-size: 19% auto;
+}
+.index-server-active {
+    color: #00baff;
+    background: url("../images/servier_active.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.index-sell-active {
+    color: #00baff;
+    background: url("../images/sell_active.png") center 15% no-repeat;
+    background-size: 18% auto;
+}
+.index-home {
+    background: url("../images/index_1.png") center 15% no-repeat;
+    background-size: 28% auto;
+}
+/*个人中心样式*/
+.person-infor {
+    position: relative;
+    width: 96%;
+    height: 11.58rem;
+    margin: 5rem auto 0;
+    box-shadow: 1px 1px 5px 2px rgba(80,80,80,0.2), 1px 1px 1px -11px rgba(80,80,80,0.2);
+}
+.person-infor dl {
+    position: relative;
+}
+.person-infor dt {
+    position: absolute;
+    overflow: hidden;
+    top: -2.5rem;
+    right: 0;
+    left: 0;
+    width: 7.42rem;
+    height: 7.42rem;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border: 3px solid #eee;
+}
+.person-infor dd {
+    padding-top: 6.5rem;
+    color: #171818;
+    font-size: 1.08rem;
+    text-align: center;
+}
+.person-infor dt img {
+    display: block;
+    width: 7.42rem;
+    height: 7.42rem;
+    /*border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;*/
+}
+.my-mon {
+    display: block;
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    left: 0;
+    width: 6.2rem;
+    height: 2.8rem;
+    margin: auto;
+    color: #fff;
+    background: url("../images/mon_back.png") center 0 no-repeat;
+    background-size: 100% auto;
+    line-height: 2.8rem;
+    text-align: center;
+}
+.person-dif {
+    width: 90%;
+    margin: 2rem auto 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.person-dif span {
+    display: block;
+    width: 30%;
+    height: 2.38rem;
+    line-height: 2.38rem;
+    text-align: center;
+    color: #999;
+    border: 1px solid #eee;
+    box-shadow: none;
+}
+.person-buyer {
+    float: left;
+    margin-left: 8%;  
+}
+.person-dif .buy-show {
+    color: #000;
+    box-shadow: 1px 1px 5px 2px rgba(80,80,80,0.2), 1px 1px 1px -11px rgba(80,80,80,0.2);
+}
+.person-seller {
+    float: right;
+    margin-right: 8%;
+}
+.person-dif-con {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    height: 13.25rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #dcdcdc;
+}
+.person-dif-con li {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 1.5rem;
+}
+.person-dif-con li a {
+    float: left;
+    width: 25%;
+    padding-top: 3.2rem;
+    margin-bottom: 1rem;
+    color: #222;
+    text-align: center;
+}
+.person-dif-con .person-con-show {
+    display: block;
+}
+.person-unpaid {
+    background: url("../images/unpaid.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-sure {
+    background: url("../images/wait_sure.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-send {
+    background: url("../images/wait_send.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-arbitration {
+    background: url("../images/arbitration.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-all {
+    background: url("../images/all_order.png") center 15% no-repeat;
+    background-size: 28% auto;
+}
+.person-sended {
+    background: url("../images/sended.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-transaction {
+    background: url("../images/transaction.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-shelves {
+    background: url("../images/shelves.png") center 15% no-repeat;
+    background-size: 25% auto;
+}
+.person-review {
+    background: url("../images/arbitration.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-seccess {
+    background: url("../images/seccess.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-defeat {
+    background: url("../images/defeat.png") center 15% no-repeat;
+    background-size: 33% auto;
+}
+.person-income-con {
+    width: 90%;
+    margin: 0 auto;
+}
+.person-income-con a {
+    display: block;
+    height: 3.92rem;
+    padding-left: 10%;
+    border-bottom: 1px solid #bfbfbf;
+    color: #333;
+    font-size: 1.17rem;
+    line-height: 3.92rem;
+}
+.person-code {
+    background: url("../images/code.png") 5px center no-repeat;
+    background-size: 4.8% auto;
+}
+.person-promotion {
+    background: url("../images/unline.png") 5px center no-repeat;
+    background-size: 5.5% auto;
+}
+.person-income {
+    background: url("../images/money.png") 5px center no-repeat;
+    background-size: 5% auto;
+}
+/*账号收索页样式*/
+.commodity-head {
+    position: relative;
+    text-align: center;
+    height: 4rem;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 4rem;
+    color: #333;
+    font-size: 1.33rem;
+}
+.commodity-head span {
+    display: block;
+    position: absolute;
+    left: 3%;
+    top: 0;
+    width: 5%;
+    height: 4rem;
+    background: url("../images/arrow.png") 5px center no-repeat;
+    background-size: 100% auto;
+}
+.com-choice li {
+    float: left;
+    width: 33.3%;
+    height: 1.92rem;
+    background: #e5e5e5;
+    line-height: 1.92rem;
+    text-align: center;
+}
+.alert-com {
+    display: none;
+    position: fixed;
+    top: 5.92rem;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.alert-com-outer {
+    display: none;
+    position: fixed;
+    top: 5.92rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.2);
+    z-index: 2;
+}
+.alert-com li {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+.alert-com-inf .com-sub {
+    overflow: hidden;
+    width: 100%;
+    padding: 2rem 0 1rem;
+}
+.com-sub .com-reset {
+    float: left;
+    width: 20%;
+    height: 2rem;
+    margin-left: 15%;
+    border: 1px solid #999;
+    line-height: 2rem;
+    text-align: center;
+    -webkit-appearance: none;
+}
+.com-sub .com-submit {
+    float: right;
+    width: 20%;
+    height: 2rem;
+    margin-right: 15%;
+    border: 1px solid #999;
+    color: #fff;
+    background: #000;
+    line-height: 2rem;
+    text-align: center;
+    -webkit-appearance: none;
+}
+.alert-com .alert-com-show {
+    display: block;
+}
+.alert-com-diff h2, .alert-com-time h2 {
+    height: 3rem;
+    padding-left: 13%;
+    line-height: 3rem;
+    font-size: 1.08rem;
+}
+.alert-com-diff div span, .alert-com-time div span {
+    display: block;
+    /*width: 100%;*/
+    height: 3rem;
+    padding-left: 13%;
+    border-top: 1px solid #e5e5e5;
+    color: #333;
+    line-height: 3rem;
+}
+.alert-com-inf div {
+    padding-left: 10%;
+    border-top: 1px solid #e5e5e5;
+}
+.alert-com-inf div label, .alert-com-inf div span {
+    float: left;
+    width: 25%;
+    height: 3rem;
+    line-height: 3rem;
+}
+.alert-com-inf div input {
+    float: left;
+    width: 75%;
+    height: 3rem;
+    line-height: 3rem;
+    border: none;
+    outline: none;
+}
+.alert-com-inf .sex-com input, .alert-com-inf .bind-com input, .alert-com-inf .certification-com input {
+    display: none;
+}
+.choice-sho {
+    float: left;
+    display: block;
+    width: 1.3rem;
+    height: 3rem;
+    background: url("../images/chioce_1.png") 0 center no-repeat;
+    background-size: 75% auto;
+}
+.sex-com .choiced-show, .bind-com .choiced-show, .certification-com .choiced-show {
+    background: url("../images/chioce_2.png") 0 center no-repeat;
+    background-size: 75% auto;
+}
+.choice-text {
+    float: left;
+    height: 3rem;
+    line-height: 3rem;
+}
+.alert-com-time em {
+    display: inline-block;
+    height: 3rem;
+    padding-left: 10%;
+    color: #999;
+    line-height: 3rem;
+    font-size: 0.83rem;
+}
+/*商品信息样式*/
+.detail-inner {
+    position: relative;
+    width: 94%;
+    height: 21.67rem;
+    margin: 1.5rem auto;
+    background-color: #efe;
+    box-shadow: 1px 1px 5px 2px rgba(80,80,80,0.2), 1px 1px 1px -11px rgba(80,80,80,0.2);
+}
+.detail-pic-left {
+    float: left;
+    width: 10%;
+   padding: 6rem 0rem 5rem 6%;
+    color: #ABABAB;
+    font-size: 1.17rem;
+}
+.detail-pic-center {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin: 0 0 0 3%;
+}
+.detail-pic-center img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    border: none;
+}
+.detail-inner .detail-pic-right {
+    position: relative;
+    overflow: hidden;
+    float: right;
+    width: 30%;
+    height: 16.67rem;
+    padding-top: 5rem;
+    margin-right: 3%;
+}
+.pic-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0,110,159, 0.15) url("../images/top.png") center center no-repeat;
+    background-size: 35% auto;
+}
+.pic-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0,110,159, 0.15) url("../images/bottom.png") center center no-repeat;
+    background-size: 35% auto;
+}
+.detail-right-inner div {
+    position: relative;
+    height: 11.67rem;
+}
+.detail-right-inner div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    border: none;
+}
+.alert-big {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.pic-left-alert {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0,110,159, 0.15) url("../images/top.png") center center no-repeat;
+    background-size: 15% auto; 
+}
+.pic-right-alert {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0,110,159, 0.15) url("../images/bottom.png") center center no-repeat;
+    background-size: 15% auto;
+}
+.big-show {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.big-show img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    border: none;
+}
+.detail-name {
+    padding-left: 3%;
+    margin: 1rem 0;
+    height: 2.5rem;
+    background-color: #fff;
+    line-height: 2.5rem;
+}
+.detail-inf {
+    position: relative;
+    height: 7.5rem;
+    background-color: #fff;
+    border-bottom: 2px solid #eee;;
+}
+.detail-in-position {
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+    color: #222;
+}
+.detail-in-name img {
+    float: left;
+    width: 1.5rem;
+    height: auto;
+    margin: 0.2rem 0.5rem 0 0;
+}
+.alert-outer {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 5.5rem;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.com-alert {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 5.7rem;
+    width: 100%;
+    z-index: 99;
+}
+.com-alert li {
+    position: absolute;
+    display: none;
+    width: 33.3%;
+    background-color: #fff;
+}
+.com-alert li:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.com-alert li:nth-child(2) {
+    top: 0;
+    left: 33.3%;
+}
+.com-alert li:nth-child(3) {
+    top: 0;
+    right: 0;
+}
+.com-alert li:nth-child(1) a, .com-alert li:nth-child(2) a, .com-alert li:nth-child(3) a {
+    float: left;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    box-shadow: -1px 0px 0px 0px #dcdcdc inset, 
+    -1px 1px 0px 0px #dcdcdc;
+}
+.com-alert a {
+    color: #222;
+}
+.detail-in-left span {
+    display: block;
+    padding-left: 3%;
+    height: 2rem;
+    line-height: 2rem;
+}
+.detail-in-left em {
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+}
+.detail-in-collect i {
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem 10% 0 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.detail-in-left .detail-in-collect {
+    width: 15%;
+    padding-left: 9%;
+}
+.detail-in-collect em {
+    float: left;
+    height: 1rem;
+    color: #3C8EFD;
+}
+.detail-in-name {
+    overflow: hidden;
+    width: 90%;
+    margin-bottom: 0.6rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #222;
+    font-size: 1.33rem;
+}
+.detail-in-left {
+    padding-top: 0.5rem;
+}
+.detail-in-left .detail-in-price {
+    padding-left: 9%;
+    margin-top: 2rem;
+    color: red;
+    font-size: 2rem;
+}
+.detail-in-position em, .detail-in-position span {
+    float: right;
+}
+.detail-love {
+    width: 100%;
+    overflow: hidden;
+}
+.detail-in-position > div {
+    padding: 0;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+.detail-in-position .sell-credit span {
+    padding: 0;
+    height: 0.8rem;
+    margin: 0.1rem 0 0 0;
+}
+.consignment {
+    height: 2rem;
+    padding-left: 3%;
+    border-top: 1px solid #dcdcdc;
+    background-color: #fff;
+    line-height: 2rem;
+}
+.detail-information {
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+.detail-nav span {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 2.5rem;
+    border-bottom: 2px solid #dcdcdc;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.detail-nav .detail-show {
+    border-bottom: 2px solid #03AAE1;
+    color: #03AAE1;
+}
+.detail-content li, .descripe li {
+    overflow: hidden;
+    padding: 0.1rem 3%;
+    margin-top: 0.5rem;
+}
+.detail-content li span {
+    float: left;
+    width: 20%;
+    color: #222;
+}
+.detail-nav {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #666;
+    font-size: 1.3rem;
+}
+.unpaid-delete2 {
+    width: 96%;
+    margin: 1rem auto 5rem;
+}
+.unpaid-delete2 a:nth-child(2) {
+    float: right;
+    color: #fff;
+    background: #2279da;
+}
+.unpaid-delete2 a:nth-child(1) {
+    float: left;
+    color: #fff;
+    background: #bfbfbf;
+}
+.unpaid-delete2 a {
+    width: 45%;
+    height: 3rem;
+    line-height: 3rem;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.detail-content li em {
+    display: block;
+    width: 80%;
+    color: #333;
+    float: left;
+}
+.descripe {
+    display: none;
+}
+.descripe p {
+    margin-top: 0.5rem;
+    color: #666;
+    line-height: 1.5rem;
+}
+.detail-love h2 {
+    height: 2.8rem;
+    background: #eee;
+    line-height: 2.8rem;
+    text-align: center;
+    font-size: 1.17rem;
+}
+.detail-buy {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4.5rem;
+    z-index: 10;
+}
+.detail-collect {
+    float: left;
+    width: 22%;
+    padding-top: 2.6rem;
+    background: #fff url(../images/collect_1.png) center 6px no-repeat;
+    background-size: 30% auto;
+    text-align: center;
+    font-size: 1.08rem;
+}
+.detail-btn {
+    float: left;
+    width: 78%;
+    height: 4.5rem;
+    color: #fff;
+    background: #015ebd;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.collect-active {
+    color: #00a8ff; 
+    background: #fff url(../images/collect_2.png) center 6px no-repeat;
+    background-size: 30% auto;
+}
+/*出售确认订单样式*/
+.sure-inf, .sure-stock, .sure-price, .pay-inf, .sell-information, .person-inf, .person-bind, .update-inf {
+    background-color: #fff;
+}
+.sure-inf li, .sure-stock li, .sure-price li, .sell-information li, .person-inf li, .person-bind li, .update-inf li {
+    padding-left: 3%;
+    border-top: 1px solid #dcdcdc;
+                
+}
+.sure-inf li span, .sure-stock li span, .sure-price li span, .pay-inf li span, .sell-information li > span, .fill-content li span, .person-inf li span, .person-bind li span, .update-inf li span {
+    float: left;
+    display: block;
+    width: 24%;
+    height: 3rem;
+    color: #222;
+    line-height: 3.1rem;
+    font-size: 1.08rem;
+}
+.sure-price li span i, .sell-information li span i, .fill-content li i, .person-bind li i, .update-inf li i {
+    color: red;
+}
+.sure-inf li em, .sure-stock li em, .sure-price li em, .sure-price li input, .pay-inf li em, .sell-information li input, .sell-information li em, .fill-content li input, .person-inf li em, .person-bind li em, .update-inf li input {
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 65%;
+    height: 3rem;
+    outline: none;
+    border: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 3.1rem;
+}
+.tobuy-tit, .tobuy-inf {
+    height: 2.92rem;
+    color: #222;
+    background: #eee;
+    text-align: center;
+    line-height: 2.92rem;
+    font-size: 1.33rem;
+}
+select {
+    -webkit-appearance: none;
+}
+.re_sele, .categroy {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 3rem;
+    border: none;
+    line-height: 3rem;
+}
+#category label, #sex label, #payway label, #system label, #client label, #binding label, #identification label, #authorization label {
+    float: left;
+    width: 30%;
+    height: 3rem;
+    margin-right: 2%;
+}
+.categroy span {
+    color: #006FF9;
+}
+#category input, #sex input, #payway input, #system input, #client input, #binding input, #authorization input, #identification input {
+    display: none;
+    width: 20%;
+}
+#category input {
+    display: none;
+}
+/*.choice-sho {
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem 0.5rem 0 0;
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 99999px;
+    -moz-border-radius: 99999px;
+    -ms-border-radius: 99999px;
+    box-sizing: border-box;
+}*/
+.sell-information .choiced-show {
+    background: url("../images/chioce_2.png") center center no-repeat;
+    background-size: 75% auto;
+}
+#sex .choice-text, .#payway .choice-text, #system .choice-text, #client .choice-text, #binding .choice-text, #authorization .choice-text, #identification .choice-text {
+    display: inline-block;
+    width: 30%;
+}
+.sure-price li input, .sell-information li input {
+    height: 3rem;
+    margin-top: 0.1rem;
+}
+.fill-content li input, .update-inf li input {
+    height: 2.6rem;
+    margin: 0.2rem 0 0 0%;
+    line-height: 2.6rem;
+}
+.sell-next {
+    margin-bottom: 5rem;
+}
+.sure-price li:last-child {
+    border-bottom: 1px solid #d7d7d7;
+}
+.tobuy-prompt {
+    padding: 0.4rem 0 0 2%;
+    color: #FF0101;
+    background: #fff;
+    font-size: 0.89rem;
+}
+.sure-contact p {
+    color: #666;
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+}
+.sure-contact div {
+    background-color: #fff;
+    border-top: 1px solid #dcdcdc;
+}
+.sure-contact div label {
+    float: left;
+    width: 18%;
+    padding-left: 2%;
+    height: 3rem;
+    line-height: 3rem;
+}
+.sure-contact div label em {
+    color: red;
+}
+.sure-contact div input {
+    float: left;
+    width: 72%;
+    height: 3rem;
+    padding-left: 6%;
+    border: none;
+    outline: none;
+    /* margin-top: 0.2rem; */
+    line-height: 3rem;
+}
+.protocol {
+    width: 94%;
+    margin: 0.5rem auto 0;
+}
+.protocol span {
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 1px solid green;
+}
+.tobuy-outer {
+    padding-bottom: 2rem;
+    background: #fff;
+}
+.protocol a {
+    color: #222;
+    font-size: 0.9rem;
+}
+.protocol .pro-check {
+    background: url("../images/check.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.wallet-submit {
+    margin: 2rem 0 0;
+}
+.wallet-submit a {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    color: #fff;
+    background-color: #0072FF;
+    line-height: 3rem;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 1.75rem;
+}
+.sure-product {
+    width: 96%;
+    margin: 0 auto;
+    color: #666;
+}
+/*选择支付样式*/
+.pay-inf {
+    box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+.pay-inf li {
+    padding-left: 4%;
+    border-bottom: 1px solid #dcdcdc;
+}
+.pay-time {
+    padding: 1rem 0 2.5rem 4%;
+    color: red;
+    background: #fff;
+    line-height: 3rem;
+    font-size: 0.9rem;
+}
+.buy-inf, .buy-inf-method {
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.33rem;
+    background: #eee;
+}
+.pay-method {
+    display: block;
+    width: 80%;
+    height: 3.5rem;
+    padding-left: 20%;
+    margin: 0 auto;
+    color: #222;
+    /*background: #fff url("../images/weixin.png") 4% center no-repeat;*/
+    /*background-size: 7% auto;*/
+    line-height: 3.5rem;
+    box-shadow: 0px 0px 0px 1px #dcdcdc;
+    font-size: 1.33rem;
+}
+/*我要卖出售样式*/
+.sell-diff {
+    padding-left: 5%;
+    height: 4.58rem;
+    line-height: 4.58rem;
+}
+.sell-content input {
+    display: none;
+}
+.sell-content label {
+    width: 25%;
+    color: #030303;
+    font-size: 1.08rem;
+}
+.sell-content {
+    background: #f2f2f2;
+}
+.choice-text-sell {
+    float: left;
+    height: 4.5em;
+    line-height: 4.5rem;
+}
+.sell-content label:nth-child(1) {
+    float: left;
+    margin-left: 24%;
+}
+.sell-content label:nth-child(2) {
+    float: right;
+    margin-right: 14%;
+}
+.choice-sho-sell {
+    float: left;
+    display: block;
+    width: 20%;
+    height: 4.5rem;
+     margin-right: 12%;
+    background: url("../images/sell_5.png") 0 center no-repeat;
+    background-size: 100% auto;
+}
+.sell-content .choiced-show-sell {
+    background: url("../images/sell_6.png") 0 center no-repeat;
+    background-size: 100% auto;
+}
+.sell-platform {
+    width: 90%;
+    margin: 1rem auto 0rem;
+}
+.sell-platform input {
+    display: none;
+}
+.sell-platform label {
+    float: left;
+    width: 25%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.sell-platform label i {
+    position: relative;
+    display: block;
+    width: 60%;
+    height: 4.5rem;
+    margin: 0 auto;
+}
+.sell-platform label i span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+.sell-platform .plat-show {
+    background: none;
+}
+.choice-text-platform {
+    display: block;
+    width: 100%;
+    margin-top: 0.8rem;
+    text-align: center;
+}
+.choiced-ying-platform {
+    background: url("../images/ying.png") center center no-repeat;
+    background-size: 100% auto;
+}
+.choice-hua-platform {
+    background: url("../images/hua.png") center center no-repeat;
+    background-size: 100% auto;
+}
+.choice-mo-platform {
+    background: url("../images/mo.png") center center no-repeat;
+    background-size: 100% auto;
+}
+.choice-hand-platform {
+    background: url("../images/hand.png") center center no-repeat;
+    background-size: 100% auto;
+}
+.choice-else-platform {
+    background:  url("../images/esle.png") center center no-repeat;
+    background-size: 100% auto;
+}
+/*我要卖信息页面*/
+.sell-next-in {
+    margin-top: 8rem;
+}
+.sell-in-next {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    color: #fff;
+    background: #015ebd;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.add-picture {
+    /* overflow: hidden; */
+    width: 96%;
+    margin: 1.33rem auto 0;
+}
+.add-inner {
+    position: relative;
+    width: 100%;
+    height: 6.75em;
+}
+.important-tit {
+    float: left;
+    width: 60%;
+    padding-top: 0.5rem;
+    color: #666;
+}
+.null-left {
+    float: left; 
+    width: 30%;
+    height: 6.75rem;
+    margin-bottom: 1rem;
+    margin-right: 5%;
+}
+.add-inner li {
+    /*position: absolute;*/
+    /*float: left;*/
+    width: 30%;
+    height: 6.75rem;
+    margin-bottom: 1rem;
+    margin-right: 4%;
+    z-index: 444;
+}
+.add-com h3 {
+    padding-left: 3%;
+    height: 3rem;
+    border-top: 1px solid #dcdcdc;
+    line-height: 3rem;
+}
+.upload {
+   position: absolute; 
+}
+.fill-foot {
+    padding-left: 3%;
+    color: red;
+}
+/*上传插件*/
+.webuploader-container {
+    /*position: relative;*/
+}
+.webuploader-element-invisible {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.add-inner .parentFileBox {
+    width:100%;
+    height:auto;
+    overflow:visible;
+    position:relative;
+}
+.add-inner .parentFileBox>.fileBoxUl {
+    position:relative;
+    width: 100%;
+    /*left: -23%;*/
+    height: 6.75rem;
+    /*overflow:hidden;*/
+    padding-bottom:5px;
+}
+.webuploader-pick {
+    position: relative;
+    display: inline-block;
+    /*right: -30%;*/
+    width: 100%;
+    height: 6.75rem;
+    color: #fff;
+    text-align: center;
+    /*border-radius: 3px;*/
+    overflow: hidden;
+    background: url("../images/add.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}            
+.add-inner .parentFileBox>.fileBoxUl>li {
+    overflow: hidden;
+    position: relative;
+    float:left;
+    /*border:1px solid #09F;*/
+    /*border-radius:5px;*/
+    width: 30%;
+    height: 6.75rem;
+    margin-bottom: 1rem;
+    /*margin-top:5px;
+    margin-left:5px;*/
+    /*background-color:#099;*/
+}
+.fileBoxUl li:nth-child(2), .fileBoxUl li:nth-child(5), .fileBoxUl li:nth-child(8) {
+    margin-right: 0;
+}
+.fileBoxUl li:nth-child(3) {
+    margin-right: 0;
+}
+.parentFileBox>.fileBoxUl {
+    height: 6.75rem;
+}
+.sell-second {
+    height: 2.5rem;
+    color: #222;
+    background: #fff;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.release_pic {
+    margin-bottom: 1rem;
+}
+.sell-first {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #222;
+    font-size: 1.25rem;
+}
+.release_pic div {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 9rem;
+    margin: 0.5rem 0 0rem 2.5%;
+}
+.release_pic div img {
+    float: left;
+    width: 100%;
+    height: 100%;  
+}
+.realease_picbtn {
+    position: relative;
+}
+.realease_picbtn label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;   
+    background: #fff url("../images/add.png") 0 0 no-repeat;
+    background-size: 100% 100%; 
+    z-index: 99;
+}
+.realease_picbtn input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.add-com textarea {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid #d7d7d7;
+    outline: none;
+    resize: none;
+}
+::-webkit-scrollbar {/*隐藏滚轮*/
+    display: none;
+    width: 5px;
+    height: 5px;
+    background: red;
+}
+.fill-submit {
+    padding-bottom: 6rem;
+}
+.sell-next input, .fill-submit input, .diyStart {
+    display: block;
+    width: 96%;
+    height: 3rem;
+    margin: 1rem auto;
+    background-color: #00a0e9;
+    color: #fff;
+    outline: none;
+    border: none;
+    line-height: 3rem;
+    text-align: center;
+    -webkit-appearance: none;
+}
+.choice-sex {
+    display: none;
+    float: left;
+    width: 100%;
+}
+.choice-sex span {
+    float: left;
+    width: 50%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+.realease_cancel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    /*background: #fff url(../images/delete.png) center center no-repeat;*/
+    background-size: 100% auto;
+}
+/*出租样式*/
+.lease-diff .lease-dis {
+    display: none;
+}
+.lease-diff-head span {
+    float: left;
+}
+.lease-diff-head em {
+    color: red;
+}
+.lease-check label {
+    display: block;
+    overflow: hidden;
+    padding-left: 20%;
+}
+.lease-diff-head {
+    padding-left: 3%;
+    height: 3rem;
+    line-height: 3rem;
+}
+.lease-check  .lease-con {
+    width: 25%;
+    height: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #777;;
+}
+.lease-check span {
+    display: inline-block;
+    margin-left: 5%;
+    line-height: 3rem;
+}
